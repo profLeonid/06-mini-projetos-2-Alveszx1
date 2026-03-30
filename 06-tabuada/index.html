@@ -18,10 +18,10 @@
 
     <div class="campo">
       <label>Número</label>
-      <input type="number" placeholder="Ex: 7"/>
+      <input  id="entrada" type="number" placeholder="Ex: 7"/>
     </div>
 
-    <button>Gerar Tabuada</button>
+    <button onclick="criarTabela()">Gerar Tabuada</button>
 
     <div class="resultado">
       <p class="resultado-titulo">Resultado</p>
@@ -36,7 +36,7 @@
               <th>Divisão</th>
             </tr>
           </thead>
-          <tbody>
+          <tbody id="tabela">
             <tr>
               <td>1</td>
               <td>8</td>
